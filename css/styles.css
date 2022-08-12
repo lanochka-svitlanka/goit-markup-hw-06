@@ -816,6 +816,7 @@ img{
   min-height: 581px;
 
   padding: 40px;
+  border-radius: 4px;
 
   background-color: var(--primary-white-color);
 
@@ -846,6 +847,15 @@ img{
   background-color:var(--primary-white-color) ;
 }
 
+.icon-close-modal{
+  transition: fill 250 ms var(--timing-function);
+}
+
+.button-close-modal:hover .icon-close-modal,
+.button-close-modal:focus .icon-close-modal{
+  fill:var(--accent-color)
+}
+
 .modal-title{
 
  font-weight:700;
@@ -857,7 +867,7 @@ img{
  text-align: center;
  color: rgba(33, 33, 33, 1);
 
- margin-bottom: 30px;
+ margin-bottom: 12px;
 }
 
 .modal-field{
